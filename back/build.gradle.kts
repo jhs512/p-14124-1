@@ -51,6 +51,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-security")
     testImplementation("org.springframework.boot:spring-boot-starter-security-test")
 
+    implementation("org.springframework.boot:spring-boot-starter-security-oauth2-client")
+
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
