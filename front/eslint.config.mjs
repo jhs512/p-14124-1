@@ -16,6 +16,11 @@ const eslintConfig = defineConfig([
     "src/hooks/**",
     "src/lib/backend/*/schema.d.ts",
   ]),
+  {
+    rules: {
+      "@next/next/no-img-element": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
